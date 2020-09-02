@@ -15,7 +15,7 @@ def init_process_group(backend):
     if rank == 0:
         host = socket.gethostname()
         address = socket.gethostbyname(host)
-        info.update(dict(MASTER_ADDR=address, MASTER_PORT='1234'))
+        info.update(dict(MASTER_ADDR=address, MASTER_PORT='25901'))
 
     info = comm.bcast(info, root=0)
     info.update(dict(WORLD_SIZE=str(world_size), RANK=str(rank)))

@@ -23,5 +23,6 @@
     "train_root": "DataSet/ilsvrc2012/train",
     "train_meta": "DataSet/ilsvrc2012/meta/train.txt",
     "val_root": "DataSet/ilsvrc2012/val",
-    "val_meta": "DataSet/ilsvrc2012/meta/val.txt"
+    "val_meta": "DataSet/ilsvrc2012/meta/val.txt",
+    "datapath": "/rscratch/data/imagenet12"
 }
